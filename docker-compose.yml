@@ -22,5 +22,5 @@ services:
       - calendar_form_network
 
 networks:
-  ai-atende-network:
+  calendar_form_network:
     external: true
