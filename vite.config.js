@@ -5,9 +5,9 @@ export default defineConfig({
   base: "/",
   plugins: [react()],
   server: {
-    port: 8000,
+    port: 6500,
     strictPort: true,
     host: true,
-    origin: "http://0.0.0.0:8000",
+    origin: "http://0.0.0.0:6500",
   },
 });
